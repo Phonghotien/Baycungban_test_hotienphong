@@ -62,6 +62,10 @@ html {
     background-size: cover;
 }
 
+.navbar__icons {
+    display: none;
+}
+
 .header__nav {
     padding-top: 20px;
     display: flex;
