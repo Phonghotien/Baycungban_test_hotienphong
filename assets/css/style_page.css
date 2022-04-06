@@ -291,7 +291,9 @@ select {
     display: flex;
     padding: 12px;
 }
-
+.nav__booking--gps {
+    width: 200px;
+}
 .box__img {}
 
 .box__info--text {
