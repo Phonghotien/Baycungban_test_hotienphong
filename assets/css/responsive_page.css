@@ -7,6 +7,9 @@
     .header__nav {
         justify-content: flex-start;
     }
+    .nav__booking--info.booking__form {
+    width: 100%;
+}
     .header__menu--list {
         display: flex;
         font-size: 13px;
