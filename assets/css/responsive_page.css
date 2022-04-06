@@ -74,6 +74,9 @@
 /* Moblie*/
 
 @media (max-width:739px) {
+    .nav__booking--info.booking__form {
+    width: 100%;
+}
     .header {
         align-items: center;
         display: flex;
