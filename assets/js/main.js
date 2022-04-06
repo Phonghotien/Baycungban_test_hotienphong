@@ -1,10 +1,4 @@
-$('.booking__convert').mousedown('click', function() {
-    var $first = $('.booking__form').find('.subbox').first();
-    var $last = $('.booking__form').find('.subbox').last();
 
-    $('.booking__convert').after($first);
-    $('.booking__convert').before($last);
-});
 // Celender
 var date = new Date();
 var day = date.getDate();
@@ -105,4 +99,11 @@ overlay.addEventListener('click', () => {
     menu.classList.toggle("navbar__open");
     menuButton.classList.toggle("open");
     overlay.classList.toggle("show")
+});
+$('.booking__convert').mousedown('click', function() {
+    var $first = $('.booking__form').find('.subbox').first();
+    var $last = $('.booking__form').find('.subbox').last();
+
+    $('.booking__convert').after($first);
+    $('.booking__convert').before($last);
 });
