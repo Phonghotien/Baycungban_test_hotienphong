@@ -114,9 +114,10 @@ html {
 }
 
 .nav__booking {
+        flex-wrap: wrap;
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
